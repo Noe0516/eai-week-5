@@ -4,8 +4,6 @@ Problem 3.4: Building a Knowledge-Based Agent for Hazardous Warehouse
 This implementation uses Z3 theorem prover to reason about safe squares
 in the hazardous warehouse environment.
 
-Author: [Your Name]
-Date: [Date]
 """
 
 # Note: Requires z3-solver to be installed

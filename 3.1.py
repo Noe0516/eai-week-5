@@ -290,7 +290,7 @@ def main():
     warehouse.observe_at_location(2, 1, creaking=True, rumbling=False)
     warehouse.print_status()
     
-    # Visualize after second observation
+    # Visualize after second observation    
     fig2 = warehouse.visualize_grid(
         title="After Observation at (2,1): Creaking, No Rumbling",
         robot_pos=(2, 1)
