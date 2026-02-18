@@ -1,5 +1,6 @@
 Problem 3.4: Building a Knowledge-Based Agent
-Author: Noe Date: 02/16/2026
+Author: Noe Ortega
+Date: 02/16/2026
 What This Is
 This is an AI agent that navigates a dangerous warehouse using logic and reasoning instead of trial-and-error. The robot has to find a package and get back to the exit without stepping on damaged floors or running into a forklift. The cool part? It uses the Z3 theorem prover to logically deduce which squares are safe based on what it hears and feels.
 How the Warehouse Works
@@ -16,7 +17,7 @@ pip install z3-solver
 Then run the agent:
 python warehouse_kb_agent.py
 Task 3: How the Robot Figures Things Out
-Let me walk you through how the robot uses logic to explore safely.
+walk through how the robot uses logic to explore safely.
 Starting at (1,1)
 The robot begins at position (1,1) facing east. Right away, it knows:
 * It's standing here and alive, so this square must be safe
